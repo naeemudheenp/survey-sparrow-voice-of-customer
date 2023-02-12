@@ -1,0 +1,359 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+
+    --hfont:28px;
+    --pfont:14px;
+
+    --plineheight:22px;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+    .features_container{
+        display: grid;
+        
+        background-color: #33393F;
+        grid-template-columns: 1fr ;
+       
+        padding-bottom:10%;
+        padding-top: 2%;
+        padding-left: 2%;
+        justify-items: center;
+        align-items: center;
+        gap: 2vw 1vw;
+        margin-top: 7.22vw;
+
+        
+
+        
+
+        
+      
+        
+
+
+       }
+
+       .features_item{
+        display: flex;
+        flex-direction: column;
+
+        justify-items: flex-start;
+        align-items: flex-start;
+       
+        text-align: left;
+        gap:1.6vw;
+       
+        height: 61%;
+
+        width: 95%;
+
+        margin-bottom: 3vh;
+
+       
+        
+       }
+
+       .features_item_header{
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: var(--hfont);
+        line-height: 125%;
+        text-align: center;
+        color: #FFFFFF;
+        height: 100%;
+        order: 2;
+       }
+
+       .features_item_desc{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:var(--pfont);
+        line-height: var(--plineheight);
+        text-align: left;
+        color: #FFFFFF;
+        order: 3;
+
+       }
+       .features_item_icon{
+        max-width:8.3vw ;
+        max-height:8.3vw ;
+        order: 1;
+    
+
+       }
+       .features_item_icon img{
+        width: 100%;
+       }
+       
+   
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+    .features_container{
+        display: grid;
+        
+        background-color: #33393F;
+        grid-template-columns: 1fr 1fr ;
+       
+        padding-bottom:10%;
+        padding-top: 2%;
+
+        justify-items: center;
+        align-items: center;
+        gap: 2vw 0vw;
+        margin-top: 7.22vw;
+
+        
+
+        
+
+        
+      
+        
+
+
+       }
+
+       .features_item{
+        display: flex;
+        flex-direction: column;
+
+        justify-items: flex-start;
+        align-items: flex-start;
+       
+        text-align: left;
+        gap:1.6vw;
+       
+        height: 61%;
+
+        width: 50%;
+        
+       }
+
+       .features_item_header{
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 125%;
+        text-align: center;
+        color: #FFFFFF;
+        height: 100%;
+        order: 2;
+       }
+
+       .features_item_desc{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 125%;
+        text-align: left;
+        color: #FFFFFF;
+        order: 3;
+     
+        width: 130%;
+
+    
+
+       }
+       .features_item_icon{
+        max-width:5.3vw ;
+        max-height:5.3vw ;
+        order: 1;
+    
+
+       }
+       .features_item_icon img{
+        width: 100%;
+       }
+    
+}
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+    .features_container{
+        display: grid;
+        flex-direction: column;
+        background-color: #33393F;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5.76vw;
+        margin-right: 5.76vw;
+        max-width: 88.47vw;
+        margin-top: 7.22vw;
+        min-height: 21.11vw;
+        padding-left: 6.4vw;
+        
+
+
+       }
+
+       .features_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:1.6vw;
+        max-width: 15.1vw;
+      
+        height: 61%;
+        
+       }
+
+       .features_item_header{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 125%;
+        text-align: center;
+        color: #FFFFFF;
+        height: 100%;
+        
+       }
+
+       .features_item_desc{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.11vw;
+        line-height: 125%;
+        text-align: center;
+        color: #FFFFFF;
+       
+
+       }
+       .features_item_icon{
+        max-width:3.3vw ;
+        max-height:3.3vw ;
+    
+
+       }
+       .features_item_icon img{
+        width: 100%;
+       }
+ 
+   
+
+}
+
+/*Big Screen*/
+@media screen and (min-width:1100px) {
+    .features_container{
+        display: grid;
+        flex-direction: column;
+        background-color: #33393F;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-left: 83px;
+        margin-right: 83px;
+       
+        margin-top: 7.22vw;
+        min-height: 21.11vw;
+        padding-left: 6.4vw;
+        padding-right: 6.4vw;
+        position: relative;
+        
+        z-index: 100;
+
+        gap: 3.86vw;
+
+
+       }
+
+       .features_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        max-width: 15.1vw;
+      
+       
+
+        min-height: 15.69vw;
+
+      
+        
+       }
+
+       .features_item_header{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 105%;
+        text-align: center;
+        color: #FFFFFF;
+        height: 100%;
+
+        margin: 0%;
+        
+        margin-bottom: 1.66vw;
+
+        
+        
+       }
+
+       .features_item_desc{
+        font-family: 'Inter';
+    
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        letter-spacing: 0px;
+        text-align: center;
+
+        text-align: center;
+        color: #FFFFFF;
+
+        width: 100%;
+       
+      
+       
+
+       }
+       .features_item_icon{
+        max-width:3.3vw ;
+        max-height:3.3vw ;
+
+        margin-top: 1.31vw;
+
+       
+
+    
+
+       }
+       .features_item_icon img{
+        width: 100%;
+       }
+  
+   
+
+}
+/*Big Screen*/
+

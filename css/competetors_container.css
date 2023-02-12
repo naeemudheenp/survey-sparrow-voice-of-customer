@@ -1,0 +1,1400 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+
+    --hfont:28px;
+    --pfont:14px;
+
+    --plineheight:22px;
+
+    --hlineheight:40px;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+    
+    .competetors_container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-top: 22.90vw;
+        position: relative;
+        z-index: -100;
+        margin-top: -8.5vh;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .competetors_review{
+        display: flex;
+        flex-direction: column;
+    
+        justify-self: center;
+        align-items: center;
+    
+     
+    
+        gap: 0;
+    
+        
+    
+    }
+    
+    .competetors_review h2{
+        font-family: 'Poppins';
+        font-size: var(--hfont);
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+        margin: 0%;
+    
+    
+    
+    }
+    
+    .competetors_review p{
+        font-family: 'Inter';
+        font-size: var(--pfont);
+        font-weight: 400;
+        line-height: var(--plineheight);
+        letter-spacing: -0.5px;
+        text-align: center;
+    
+        margin: 0%;
+    
+        margin-top: 1.22vw;
+    
+        
+        
+    
+    
+    }
+    
+    
+    .competetors_review_images{
+        display: flex;
+    
+        margin-top: 4.4vw;
+    
+        justify-content: center;
+        align-items: center;
+      
+    
+        
+    }
+    
+    .competetors_review_images_item1{
+        max-width: 15.1vw ;
+        min-width: 11.1vw ;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .competetors_review_images_item1 img{
+       width: 100%;
+    }
+    
+    .competetors_review_images_item2{
+        max-width: 25.7vw ;
+        min-width: 20.7vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 9.51vw;
+    }
+    
+    .competetors_review_images_item2 img{
+       width: 100%;
+    }
+    
+    .competetors_review_images_item3{
+        max-width: 19.4vw ;
+        min-width: 14.4vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 8.26vw;
+    }
+    
+    .competetors_review_images_item3 img{
+       width: 100%;
+    }
+    
+    
+    /*Competitors begins here */
+    
+    .competetors_images{
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 4.9vw;
+
+        justify-content: center;
+        align-items: center;
+
+        padding: 1%;
+    }
+    
+    .competetors_images_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        
+    
+        
+    
+        
+        row-gap: 8.8vw;
+        column-gap: 4.2vw;
+    
+        padding: 0%;
+    
+    
+    }
+    
+    
+    
+    .competetors_images_item img{
+    
+        width: 100%;
+    
+    
+       
+    }
+    
+    .margin_item1{
+        
+            min-width: 18.43vw;
+            
+    }
+    
+    .margin_item2{
+    
+        min-width: 18.43vw;
+            
+    
+       
+    }
+    
+    .margin_item3{
+    
+        min-width: 18.43vw;
+            
+    }
+    
+    .margin_item4{
+        min-width: 18.43vw;
+            
+    }
+    
+    .margin_item5{
+        min-width: 18.43vw;
+            
+    }
+    
+    .margin_item6{
+    
+        min-width: 18.43vw;
+            
+         
+    
+    }
+    
+    .margin_item7{
+    
+        min-width: 18.43vw;
+            
+    }
+    .margin_item8{
+        min-width: 18.43vw;
+            
+    }
+    
+    .competetors_images h2{
+        font-family: 'Poppins';
+    font-size: var(--hfont);
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin-bottom: 11.4vw    ;
+    
+    }
+    
+    
+    /* cutomer review begins here */
+    .customer_review{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 11.11vw;
+
+        width: 100%;
+    
+        padding-bottom: 11.1vw;
+    }
+    
+    .customer_review h2{
+        font-family: 'Poppins';
+        font-size: var(--hfont);
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0%;
+    }
+    
+    .customer_review p{ 
+        font-family: 'Inter';
+        font-size: var(--pfont);
+        font-weight: 300;
+        line-height: var(--plineheight);
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00000099;
+        margin: 0%;
+        margin-top: 4.4vw;
+    
+      
+    
+    
+      
+    }
+    
+    .customer_review_image{
+        display: flex;
+    
+        gap: 5.5vw;
+    }
+    
+    .customer_review_image_item{
+        max-width: 8.2083vw;
+        min-width: 8.2083vw;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        min-height: 9.26vw;
+    
+    }
+    
+    .customer_review_image_item img{
+        width: 100%;
+    }
+    
+    .customer_review_image_item_hero{
+        
+        flex-direction: column;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    .customer_review_image_item_hero_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 9.94vw;
+        max-width: 9.94vw;
+    
+        padding-top: 70%;
+    
+        border-radius: 50% !important;
+    
+    
+    }
+    
+    .customer_review_image_item_hero_img  img{
+    width: 100%;
+    border-radius: 50%;
+    }
+    
+    .customer_review_image_item_hero h4{
+        font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin: 0%;
+    
+    }
+    
+    
+    .customer_review_image_item_hero p{
+        font-family: 'Inter';
+        font-size: 9px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0%;
+    
+    }
+
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+    .competetors_container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-top: 22.90vw;
+        position: relative;
+        z-index: -100;
+        margin-top: -15.5vh;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .competetors_review{
+        display: flex;
+        flex-direction: column;
+    
+        justify-self: center;
+        align-items: center;
+    
+        margin-left: 17.9vw;
+        margin-right: 17.9vw;
+    
+        gap: 0;
+    
+        
+    
+    }
+    
+    .competetors_review h2{
+        font-family: 'Poppins';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+        margin: 0%;
+    
+    
+    
+    }
+    
+    .competetors_review p{
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+        margin: 0%;
+    
+        margin-top: 1.22vw;
+    
+        
+        
+    
+    
+    }
+    
+    
+    .competetors_review_images{
+        display: flex;
+    
+        margin-top: 4.4vw;
+    
+        justify-content: center;
+        align-items: center;
+      
+    
+        
+    }
+    
+    .competetors_review_images_item1{
+        max-width: 11.1vw ;
+        min-width: 11.1vw ;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .competetors_review_images_item1 img{
+       width: 100%;
+    }
+    
+    .competetors_review_images_item2{
+        max-width: 20.7vw ;
+        min-width: 20.7vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 9.51vw;
+    }
+    
+    .competetors_review_images_item2 img{
+       width: 100%;
+    }
+    
+    .competetors_review_images_item3{
+        max-width: 14.4vw ;
+        min-width: 14.4vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 8.26vw;
+    }
+    
+    .competetors_review_images_item3 img{
+       width: 100%;
+    }
+    
+    
+    /*Competitors begins here */
+    
+    .competetors_images{
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 4.9vw;
+
+        justify-content: center;
+        align-items: center;
+
+        padding: 3%;
+    }
+    
+    .competetors_images_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        
+    
+        
+    
+        
+        row-gap: 8.8vw;
+        column-gap: 4.2vw;
+    
+        padding: 0%;
+    
+    
+    }
+    
+    
+    
+    .competetors_images_item img{
+    
+        width: 100%;
+    
+    
+       
+    }
+    
+    .margin_item1{
+        
+            min-width: 18.43vw;
+            
+    }
+    
+    .margin_item2{
+    
+        min-width: 18.43vw;
+            
+    
+       
+    }
+    
+    .margin_item3{
+    
+        min-width: 18.43vw;
+            
+    }
+    
+    .margin_item4{
+        min-width: 18.43vw;
+            
+    }
+    
+    .margin_item5{
+        min-width: 18.43vw;
+            
+    }
+    
+    .margin_item6{
+    
+        min-width: 18.43vw;
+            
+         
+    
+    }
+    
+    .margin_item7{
+    
+        min-width: 18.43vw;
+            
+    }
+    .margin_item8{
+        min-width: 18.43vw;
+            
+    }
+    
+    .competetors_images h2{
+        font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin-bottom: 6.4vw    ;
+    
+    }
+    
+    
+    /* cutomer review begins here */
+    .customer_review{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 11.11vw;
+    
+        padding-bottom: 11.1vw;
+    }
+    
+    .customer_review h2{
+        font-family: 'Poppins';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0%;
+    }
+    
+    .customer_review p{ 
+        font-family: 'Inter';
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #00000099;
+        margin: 0%;
+        margin-top: 4.4vw;
+    
+      
+    
+    
+      
+    }
+    
+    .customer_review_image{
+        display: flex;
+    
+        gap: 5.5vw;
+    }
+    
+    .customer_review_image_item{
+        max-width: 8.2083vw;
+        min-width: 8.2083vw;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        min-height: 9.26vw;
+    
+    }
+    
+    .customer_review_image_item img{
+        width: 100%;
+    }
+    
+    .customer_review_image_item_hero{
+        
+        flex-direction: column;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    .customer_review_image_item_hero_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 9.94vw;
+        max-width: 9.94vw;
+    
+        padding-top: 70%;
+    
+        border-radius: 50% !important;
+    
+    
+    }
+    
+    .customer_review_image_item_hero_img  img{
+    width: 100%;
+    border-radius: 50%;
+    }
+    
+    .customer_review_image_item_hero h4{
+        font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin: 0%;
+    
+    }
+    
+    
+    .customer_review_image_item_hero p{
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0%;
+    
+    }
+
+}
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+    .competetors_container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-top: 22.90vw;
+        position: relative;
+        z-index: -100;
+        margin-top: -20.5vh;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .competetors_review{
+        display: flex;
+        flex-direction: column;
+    
+        justify-self: center;
+        align-items: center;
+    
+        margin-left: 17.9vw;
+        margin-right: 17.9vw;
+    
+        gap: 0;
+    
+        
+    
+    }
+    
+    .competetors_review h2{
+        font-family: 'Poppins';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+        margin: 0%;
+    
+    
+    
+    }
+    
+    .competetors_review p{
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+        margin: 0%;
+    
+        margin-top: 1.22vw;
+    
+        
+        
+    
+    
+    }
+    
+    
+    .competetors_review_images{
+        display: flex;
+    
+        margin-top: 5.4vw;
+    
+        justify-content: center;
+        align-items: center;
+      
+    
+        
+    }
+    
+    .competetors_review_images_item1{
+        max-width: 11.1vw ;
+        min-width: 11.1vw ;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .competetors_review_images_item1 img{
+       width: 100%;
+    }
+    
+    .competetors_review_images_item2{
+        max-width: 20.7vw ;
+        min-width: 20.7vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 9.51vw;
+    }
+    
+    .competetors_review_images_item2 img{
+       width: 100%;
+    }
+    
+    .competetors_review_images_item3{
+        max-width: 14.4vw ;
+        min-width: 14.4vw ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-left: 8.26vw;
+    }
+    
+    .competetors_review_images_item3 img{
+       width: 100%;
+    }
+    
+    
+    /*Competitors begins here */
+    
+    .competetors_images{
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 8.9vw;
+    }
+    
+    .competetors_images_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        margin-left: 15.2vw;
+        margin-right: 15.2vw;
+    
+        max-width: 69.61vw;
+        min-width: 69.61vw;
+    
+        
+        row-gap: 8.8vw;
+        column-gap: 0px;
+    
+        padding: 0%;
+    
+    
+    }
+    
+    
+    
+    .competetors_images_item img{
+    
+        width: 100%;
+    
+    
+       
+    }
+    
+    .margin_item1{
+        
+            min-width: 14.43vw;
+            max-width: 14.43vw;
+        
+    }
+    
+    .margin_item2{
+    
+        min-width: 11.57vw;
+            max-width: 11.57vw;
+    
+        margin-left: 8.179vw;
+    }
+    
+    .margin_item3{
+    
+        min-width: 9.68vw;
+            max-width: 9.68vw;
+        margin-left: 7.5vw;
+    }
+    
+    .margin_item4{
+        min-width: 11.18vw;
+            max-width: 11.18vw;
+        margin-left: 7.08vw;
+    }
+    
+    .margin_item5{
+        min-width: 11.169vw;
+            max-width: 11.169vw;
+    
+            margin-left: 1.875vw;
+    }
+    
+    .margin_item6{
+    
+        min-width: 7.01vw;
+            max-width: 7.01vw;
+        margin-left: 10.52vw;
+         
+    
+    }
+    
+    .margin_item7{
+    
+        min-width: 5.78vw;
+        max-width: 5.78vw;
+        margin-left: 10.41vw;
+    }
+    .margin_item8{
+        min-width: 8.78vw;
+        max-width: 8.78vw;
+        margin-left: 8.10vw;
+    }
+    
+    .competetors_images h2{
+        font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin-bottom: 6.4vw    ;
+    
+    }
+    
+    
+    /* cutomer review begins here */
+    .customer_review{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 11.11vw;
+    
+        padding-bottom: 11.1vw;
+    }
+    
+    .customer_review h2{
+        font-family: 'Poppins';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0%;
+    }
+    
+    .customer_review p{ 
+        font-family: 'Inter';
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #00000099;
+        margin: 0%;
+        margin-top: 4.4vw;
+    
+        margin-left: 17.08vw;
+        margin-right: 17.08vw;
+    
+    
+      
+    }
+    
+    .customer_review_image{
+        display: flex;
+    
+        gap: 5.5vw;
+    }
+    
+    .customer_review_image_item{
+        max-width: 5.2083vw;
+        min-width: 5.2083vw;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        min-height: 9.26vw;
+    
+    }
+    
+    .customer_review_image_item img{
+        width: 100%;
+    }
+    
+    .customer_review_image_item_hero{
+        
+        flex-direction: column;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    .customer_review_image_item_hero_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 6.94vw;
+        max-width: 6.94vw;
+    
+        padding-top: 70%;
+    
+        border-radius: 50% !important;
+    
+    
+    }
+    
+    .customer_review_image_item_hero_img  img{
+    width: 100%;
+    border-radius: 50%;
+    }
+    
+    .customer_review_image_item_hero h4{
+        font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin: 0%;
+    
+    }
+    
+    
+    .customer_review_image_item_hero p{
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0%;
+    
+    } 
+   
+ 
+   
+
+}
+/*Big Screen*/
+
+@media screen  and  (min-width:1100px){
+.competetors_container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 22.90vw;
+    position: relative;
+    z-index: -100;
+    margin-top: -20.5vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.competetors_review{
+    display: flex;
+    flex-direction: column;
+
+    justify-self: center;
+    align-items: center;
+
+    margin-left: 17.9vw;
+    margin-right: 17.9vw;
+
+    gap: 0;
+
+    
+
+}
+
+.competetors_review h2{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    margin: 0%;
+
+
+
+}
+
+.competetors_review p{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    margin: 0%;
+
+    margin-top: 1.22vw;
+
+    
+    
+
+
+}
+
+
+.competetors_review_images{
+    display: flex;
+
+    margin-top: 5.4vw;
+
+    justify-content: center;
+    align-items: center;
+  
+
+    
+}
+
+.competetors_review_images_item1{
+    max-width: 11.1vw ;
+    min-width: 11.1vw ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.competetors_review_images_item1 img{
+   width: 100%;
+}
+
+.competetors_review_images_item2{
+    max-width: 20.7vw ;
+    min-width: 20.7vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 9.51vw;
+}
+
+.competetors_review_images_item2 img{
+   width: 100%;
+}
+
+.competetors_review_images_item3{
+    max-width: 14.4vw ;
+    min-width: 14.4vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 8.26vw;
+}
+
+.competetors_review_images_item3 img{
+   width: 100%;
+}
+
+
+/*Competitors begins here */
+
+.competetors_images{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 8.9vw;
+}
+
+.competetors_images_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-left: 15.2vw;
+    margin-right: 15.2vw;
+
+    max-width: 69.61vw;
+    min-width: 69.61vw;
+
+    
+    row-gap: 8.8vw;
+    column-gap: 0px;
+
+    padding: 0%;
+
+
+}
+
+
+
+.competetors_images_item img{
+
+    width: 100%;
+
+
+   
+}
+
+.margin_item1{
+    
+        min-width: 14.43vw;
+        max-width: 14.43vw;
+    
+}
+
+.margin_item2{
+
+    min-width: 11.57vw;
+        max-width: 11.57vw;
+
+    margin-left: 8.179vw;
+}
+
+.margin_item3{
+
+    min-width: 9.68vw;
+        max-width: 9.68vw;
+    margin-left: 7.5vw;
+}
+
+.margin_item4{
+    min-width: 11.18vw;
+        max-width: 11.18vw;
+    margin-left: 7.08vw;
+}
+
+.margin_item5{
+    min-width: 11.169vw;
+        max-width: 11.169vw;
+
+        margin-left: 1.875vw;
+}
+
+.margin_item6{
+
+    min-width: 7.01vw;
+        max-width: 7.01vw;
+    margin-left: 10.52vw;
+     
+
+}
+
+.margin_item7{
+
+    min-width: 5.78vw;
+    max-width: 5.78vw;
+    margin-left: 10.41vw;
+}
+.margin_item8{
+    min-width: 8.78vw;
+    max-width: 8.78vw;
+    margin-left: 8.10vw;
+}
+
+.competetors_images h2{
+    font-family: 'Poppins';
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+
+margin-bottom: 6.4vw    ;
+
+}
+
+
+/* cutomer review begins here */
+.customer_review{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 11.11vw;
+
+    padding-bottom: 11.1vw;
+}
+
+.customer_review h2{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0%;
+}
+
+.customer_review p{ 
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00000099;
+    margin: 0%;
+    margin-top: 4.4vw;
+
+    margin-left: 17.08vw;
+    margin-right: 17.08vw;
+
+
+  
+}
+
+.customer_review_image{
+    display: flex;
+
+    gap: 5.5vw;
+}
+
+.customer_review_image_item{
+    max-width: 5.2083vw;
+    min-width: 5.2083vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 9.26vw;
+
+}
+
+.customer_review_image_item img{
+    width: 100%;
+}
+
+.customer_review_image_item_hero{
+    
+    flex-direction: column;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+
+}
+
+.customer_review_image_item_hero_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 6.94vw;
+    max-width: 6.94vw;
+
+    padding-top: 70%;
+
+    border-radius: 50% !important;
+
+
+}
+
+.customer_review_image_item_hero_img  img{
+width: 100%;
+border-radius: 50%;
+}
+
+.customer_review_image_item_hero h4{
+    font-family: 'Inter';
+font-size: 26px;
+font-weight: 500;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+
+margin: 0%;
+
+}
+
+
+.customer_review_image_item_hero p{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0%;
+
+}
+
+}

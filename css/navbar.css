@@ -1,0 +1,849 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+
+    .navbar_container{
+        background-color: white;
+        
+    
+        
+        display: flex;
+       
+        flex-direction: column;
+       
+      
+        font-family: 'Inter';
+
+    }
+    .navbar_logo{
+      
+       
+        font-family: 'Inter';
+        display: flex;
+        justify-content: space-between;
+      
+        
+    }    
+    .navbar_logo img{
+        content:  url("/assets/SurveySparrow-Logo-Black\ 1\ \(1\).png");
+        min-height: 100%;
+        width: 40%;
+      
+    }
+    
+    .navbar_center{
+        margin-top: 3vh;
+        height: 0;
+        min-width: 100vw;
+        
+        justify-content: flex-start;
+        display: none;
+        padding: 0px;
+        flex-direction: column;
+        align-items: left;
+        font-family: 'Inter';
+        
+        
+    }
+
+    .section_navbar_links_toggle{
+        display: flex !important ;
+        
+        z-index: 100;
+    
+        height: auto;
+      
+    }
+    .navbar_center_textgrp{
+       
+        display: flex;
+        height: 0px;
+        
+        width: auto;
+        flex-direction:row;
+        gap:0.55vw;;
+        font-size: 0.975rem;
+        line-height: 1.88rem;
+        text-align:  center;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Inter';
+        
+        text-align: justify;
+        text-justify: inter-word;
+        justify-content: left;
+        align-items:left;
+        margin-left: 3vw;
+
+        
+       
+       
+        
+    }
+    .section_navbar_container_menu{
+        display: flex;
+        align-items: center;
+        min-width: 5vw;
+       
+      
+        
+       }
+
+    .navbar_center_textgrp_img{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+   .navbar_right{
+   
+    display: none;
+    width: auto;
+    flex-direction: column;
+   
+    justify-content: left;
+    align-items: left;
+
+   }
+
+   .navbar_right_language{
+    
+    margin-left: 3vw;
+
+    display: flex;
+    min-width: 6.11vw;
+    min-height: 2rem;
+    justify-content: left;
+    flex-direction: row;
+    gap: 0.5vw;
+    font-size: 0.975rem;
+    line-height: 1.88rem;
+    text-align: left;
+    font-family: 'Inter';
+   }
+
+   .navbar_right_language img{
+    max-height: .79rem;
+    align-self: center;
+    
+   }
+   .navbar_right_mobile{
+    padding: 1%;
+    margin-left: 3vw;
+  
+   
+    min-height: 2rem;
+    
+    font-size: 0.975rem;
+    line-height: 1.88rem;
+    text-align: left;
+    font-family: 'Inter';
+    display: flex;
+   
+   
+    
+   }
+
+
+   .navbar_button{
+   
+ 
+    margin-left: 3vw;
+    min-height: 2.0vh;
+    min-width: 6.0416667vw;
+    font-size: 0.975rem;
+    line-height: 1.88rem;
+    text-align: center;
+    background-color: #30BF91;
+    color: white;
+    border: none;
+    border-radius: 0.6vw;
+    font-family: 'Inter';
+   }
+   .opt1{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+    padding: 1%;
+   }
+
+  
+
+   .opt2{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+    padding: 1%;
+
+   }
+
+   .opt3{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+    padding: 1%;
+   }
+
+
+   .opt4{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+    padding: 1%;
+
+   }
+
+
+   .opt5{
+    height: 100%;
+    min-width: 5.902vw ;
+    min-width: 100vw;
+    text-align: left;
+    padding: 1%;
+   }
+
+
+   
+    
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+ 
+    .navbar_container{
+        background-color: white;
+        
+        
+        
+        display: flex;
+       
+        flex-direction: column;
+       
+        margin-top: var(--marginTop);
+        font-family: 'Inter';
+
+    }
+    .navbar_logo{
+      
+       
+        font-family: 'Inter';
+        display: flex;
+        justify-content: space-between;
+      
+        
+    }    
+    .navbar_logo img{
+        content:  url("/assets/SurveySparrow-Logo-Black\ 1\ \(1\).png");
+        min-height: 100%;
+        width: 30%;
+      
+    }
+    
+    .navbar_center{
+        margin-top: 3vh;
+        height: 0;
+        min-width: 100vw;
+        
+        justify-content: flex-start;
+        display: none;
+        padding: 0px;
+        flex-direction: column;
+        align-items: left;
+        font-family: 'Inter';
+        
+        
+    }
+
+    .section_navbar_links_toggle{
+        display: flex !important ;
+        
+        z-index: 100;
+    
+        height: auto;
+      
+    }
+    .navbar_center_textgrp{
+       
+        display: flex;
+        height: 0px;
+        
+        width: auto;
+        flex-direction:row;
+        gap:0.55vw;;
+        font-size: 0.775rem;
+        line-height: 1.88rem;
+        text-align:  center;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Inter';
+        
+        text-align: justify;
+        text-justify: inter-word;
+        justify-content: left;
+        align-items:left;
+        margin-left: 3vw;
+
+        
+       
+       
+        
+    }
+    .section_navbar_container_menu{
+        display: flex;
+        align-items: center;
+        min-width: 5vw;
+        
+      
+        
+       }
+
+    .navbar_center_textgrp_img{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+   .navbar_right{
+   
+    display: none;
+    width: auto;
+    flex-direction: column;
+   
+    justify-content: left;
+    align-items: left;
+
+   }
+
+   .navbar_right_language{
+    
+    margin-left: 3vw;
+
+    display: flex;
+    min-width: 6.11vw;
+    min-height: 2rem;
+    justify-content: left;
+    flex-direction: row;
+    gap: 0.5vw;
+    font-size: 0.675rem;
+    line-height: 1.88rem;
+    text-align: left;
+    font-family: 'Inter';
+   }
+
+   .navbar_right_language img{
+    max-height: .79rem;
+    align-self: center;
+    
+   }
+   .navbar_right_mobile{
+    margin-left: 3vw;
+  
+   
+    min-height: 2rem;
+    
+    font-size: 0.575rem;
+    line-height: 1.88rem;
+    text-align: left;
+    font-family: 'Inter';
+    display: flex;
+   
+   
+    
+   }
+
+
+   .navbar_button{
+   
+ 
+    margin-left: 3vw;
+    min-height: 2.0vh;
+    min-width: 6.0416667vw;
+    font-size: 0.675rem;
+    line-height: 1.88rem;
+    text-align: center;
+    background-color: #30BF91;
+    color: white;
+    border: none;
+    border-radius: 0.6vw;
+    font-family: 'Inter';
+   }
+   .opt1{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+   }
+
+  
+
+   .opt2{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+
+   }
+
+   .opt3{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+
+   }
+
+
+   .opt4{
+    height: 100%;
+    min-width: 100vw;
+    text-align: left;
+   
+
+   }
+
+
+   .opt5{
+    height: 100%;
+    min-width: 5.902vw ;
+    min-width: 100vw;
+    text-align: left;
+   }
+
+
+   
+    
+    
+}
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+    .section_navbar_container_menu{
+        visibility: hidden;
+        
+       }
+    .mainPage{
+        width: 100vw;
+}
+    .navbar_container{
+        
+        
+        max-width: 88.495vw;
+        min-width: 88.495vw;
+        
+        display: flex;
+        margin-left:    5.7638vw;
+        margin-right :  5.740vw;
+        
+        background-color: white;
+       
+        margin-top: var(--marginTop);
+        font-family: 'Inter';
+
+    }
+    .navbar_logo{
+        margin-top: var(--marginTop);
+        min-width: 13.68vw;
+        max-width: 13.68vw;
+        max-height: 2.19rem;
+        font-family: 'Inter';
+        
+    }    
+    .navbar_logo img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .navbar_center{
+       
+        min-height: 2rem;
+        min-width: 32.63vw;
+        margin-left: 1.94vw;
+        margin-top: var(--marginTop);
+        display: flex;
+        padding: 0px;
+        
+        align-items: center;
+        font-family: 'Inter';
+        
+        
+    }
+    .navbar_center_textgrp{
+       
+        display: flex;
+        max-height: 2rem;
+       
+        flex-direction: row;
+        gap:0.55vw;;
+        font-size: 0.575rem;
+        line-height: 1.88rem;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Inter';
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        
+       
+       
+        
+    }
+
+    .navbar_center_textgrp_img{
+        max-width: 0.486vw;
+    }
+   .navbar_center_textgrp img{
+
+    max-height: .55rem;
+    width: 100%;
+    
+
+   }
+
+   .navbar_right{
+    margin-left: 16.38vw;
+    display: flex;
+    width: auto;
+   
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .navbar_right_language{
+    
+   
+    margin-top: var(--marginTop);    
+    display: flex;
+    min-width: 6.11vw;
+    min-height: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5vw;
+    font-size: 0.675rem;
+    line-height: 1.88rem;
+    text-align: left;
+    font-family: 'Inter';
+   }
+
+   .navbar_right_language img{
+    max-height: .79rem;
+    align-self: center;
+    
+   }
+   .navbar_right_mobile{
+    margin-top: var(--marginTop);
+    margin-left: 1.68vw;
+    min-height: 2rem;
+    min-width: 8.88vw;
+    max-width: 8.88vw;
+    font-size: 0.575rem;
+    line-height: 1.88rem;
+    text-align: left;
+    font-family: 'Inter';
+    display: flex;
+   
+   
+    
+   }
+
+
+   .navbar_button{
+   
+ 
+   margin-left: 1.11vw;
+    min-height: 2.0vh;
+    min-width: 6.0416667vw;
+    font-size: 0.675rem;
+    line-height: 1.88rem;
+    text-align: center;
+    background-color: #30BF91;
+    color: white;
+    border: none;
+    border-radius: 0.6vw;
+    font-family: 'Inter';
+   }
+   .opt1{
+    height: 100%;
+    min-width: 4.652vw;
+   
+   }
+
+  
+
+   .opt2{
+    height: 100%;
+    min-width: 5.069vw ;
+  
+    margin-left: 2.013vw   ;
+   }
+
+   .opt3{
+    height: 100%;
+    min-width: 4.236vw ;
+   
+    margin-left: 1.59vw   ;
+   }
+
+
+   .opt4{
+    height: 100%;
+    min-width: 5.416vw ;
+   
+    margin-left: 2.01vw   ;
+   }
+
+
+   .opt5{
+    height: 100%;
+    min-width: 5.902vw ;
+  
+    margin-left: 1.736vw   ;
+   }
+  
+    
+}
+/*Large Screen Ends Here*/
+
+/*Big Screen*/
+@media screen and (min-width:1100px) {
+    .section_navbar_container_menu{
+        visibility: hidden;
+        
+       }
+
+    .mainPage{
+        width: 100vw;
+}
+    .navbar_container{
+        
+        
+        max-width: 88.495vw;
+        min-width: 88.495vw;
+        
+        display: flex;
+        margin-left:    5.7638vw;
+        margin-right :  5.740vw;
+        
+        background-color: white;
+       
+        margin-top: var(--marginTop);
+        font-family: 'Inter';
+
+        
+
+    }
+    .navbar_logo{
+        margin-top: var(--marginTop);
+        min-width: auto;
+        max-width: auto;
+        max-height: 2.19rem;
+        font-family: 'Inter';
+        
+    }    
+    .navbar_logo img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .navbar_center{
+       
+        min-height: 2rem;
+        min-width: 32.63vw;
+        margin-left: 1.94vw;
+        margin-top: var(--marginTop);
+        display: flex;
+        padding: 0px;
+        
+        align-items: center;
+        font-family: 'Inter';
+        
+        
+    }
+    .navbar_center_textgrp{
+       
+        display: flex;
+        max-height: 2rem;
+       
+        flex-direction: row;
+        gap:0.55vw;;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+        
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Inter';
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        
+       
+       
+        
+    }
+
+    .navbar_center_textgrp_img{
+        max-width: 0.486vw;
+    }
+   .navbar_center_textgrp img{
+
+    max-height: .55rem;
+    width: 100%;
+    
+
+   }
+
+   .navbar_right{
+    margin-left: 16.38vw;
+    display: flex;
+    width: auto;
+   
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .navbar_right_language{
+    
+   
+    margin-top: var(--marginTop);    
+    display: flex;
+    min-width: 6.11vw;
+    min-height: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5vw;
+  
+    text-align: left;
+    font-family: 'Inter';
+
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+
+
+   }
+
+   .navbar_right_language img{
+    max-height: .79rem;
+    align-self: center;
+
+    
+   }
+   .navbar_right_mobile{
+    margin-top: var(--marginTop);
+    margin-left: 1.68vw;
+    min-height: 2rem;
+    min-width: 8.88vw;
+    max-width: 8.88vw;
+    
+
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+
+
+    text-align: left;
+    font-family: 'Inter';
+    display: flex;
+   
+   
+    
+   }
+
+
+   .navbar_button{
+   
+ 
+   margin-left: 1.11vw;
+    min-height: 2.7vh;
+    min-width: 6.0416667vw;
+    font-size: 0.675rem;
+    line-height: 1.88rem;
+    text-align: center;
+    background-color: #30BF91;
+    color: white;
+    border: none;
+    border-radius: 0.6vw;
+    font-family: 'Inter';
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: CENTER;
+
+   }
+   .opt1{
+    height: 100%;
+    min-width: 4.652vw;
+   
+   }
+
+  
+
+   .opt2{
+    height: 100%;
+    min-width: 5.069vw ;
+  
+    margin-left: 2.013vw   ;
+   }
+
+   .opt3{
+    height: 100%;
+    min-width: 4.236vw ;
+   
+    margin-left: 1.59vw   ;
+   }
+
+
+   .opt4{
+    height: 100%;
+    min-width: 5.416vw ;
+   
+    margin-left: 2.01vw   ;
+   }
+
+
+   .opt5{
+    height: 100%;
+    min-width: 5.902vw ;
+  
+    margin-left: 1.736vw   ;
+   }
+  
+   
+
+}
+/*Big Screen*/

@@ -1,0 +1,584 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+
+
+    --hfont:28px;
+    --pfont:14px;
+
+    --plineheight:22px;
+
+    --hlineheight:40px;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+    .greysignup_container{
+        display: flex;
+       background-image: url('../assets/Mask\ Group\ \(4\).png');
+       
+        background-size: right bottom;
+    
+       background-repeat: no-repeat;
+       background-attachment:fixed;
+       background-position: right bottom;
+        background-position-x:28.5vw ;
+        background-position-y:32.5vw ;
+        background-color: #364250;
+        flex-direction: column;
+       
+       
+    
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .greysignup_container_main_header{
+    
+    
+    
+    
+    padding-top: 5.34vw;
+    }
+    
+    .greysignup_container_main_header h2{
+    
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 1px;
+        text-align: center;
+        
+        
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    
+        margin: 0%;
+    
+        margin-bottom: 3%;
+       
+        }
+    
+    .greysignup_container_input{
+        margin-top: 2.22vw;
+        display: flex;
+    
+        flex-direction: column;
+    
+        margin-bottom: 2.21vw;
+    
+        width: 100%;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .greysignup_container_input input::placeholder{
+        font-family: 'Inter';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: left;
+    
+        color: #BCBCBC;
+    
+        text-indent: 13px;
+    
+    }
+    
+    .greysignup_container_input button{
+        background-color: black;
+        min-height: 5.8vw;
+    
+        color: #FFFFFF;
+        border: none;
+    
+        width: 80%;
+    
+    
+    
+    }
+    
+    .greysignup_container_input input{
+        background-color: white;
+        min-height: 5.8vw;
+        
+        color: #FFFFFF;
+        border: none;
+    
+        width: 80%;
+    
+    
+    }
+    
+    .greysignup_container_small_header{
+        color: #FFFFFF;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+    
+        margin-bottom: 6.86vw;
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .greysignup_container_small_header_span{
+    
+        
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+        text-decoration: underline;
+    
+        
+    
+    
+    
+    }   
+    
+   
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+.greysignup_container{
+    display: flex;
+   background-image: url('../assets/Mask\ Group\ \(4\).png');
+   
+    background-size: right bottom;
+
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-position: right bottom;
+    background-position-x:28.5vw ;
+    background-position-y:32.5vw ;
+    background-color: #364250;
+    flex-direction: column;
+   
+   
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.greysignup_container_main_header{
+
+
+
+
+padding-top: 5.34vw;
+}
+
+.greysignup_container_main_header h2{
+
+    font-family: 'Poppins';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+    
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    margin: 0%;
+
+    margin-bottom: 3%;
+   
+    }
+
+.greysignup_container_input{
+    margin-top: 2.22vw;
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 2.21vw;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.greysignup_container_input input::placeholder{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
+    color: #BCBCBC;
+
+    text-indent: 13px;
+
+}
+
+.greysignup_container_input button{
+    background-color: black;
+    min-height: 5.8vw;
+
+    color: #FFFFFF;
+    border: none;
+
+    width: 80%;
+
+
+
+}
+
+.greysignup_container_input input{
+    background-color: white;
+    min-height: 5.8vw;
+    
+    color: #FFFFFF;
+    border: none;
+
+    width: 80%;
+
+
+}
+
+.greysignup_container_small_header{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    margin-bottom: 6.86vw;
+
+
+
+}
+
+
+
+
+
+.greysignup_container_small_header_span{
+
+    
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+
+    
+
+
+
+}   
+
+}
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+   
+    .greysignup_container{
+        display: flex;
+       background-image: url('../assets/Mask\ Group\ \(4\).png');
+       
+        background-size: 69.41vw 25.66vw;
+    
+       background-repeat: no-repeat;
+       background-attachment:fixed;
+       background-position: right bottom;
+        background-position-x:28.5vw ;
+        background-position-y:32.5vw ;
+        background-color: #364250;
+        flex-direction: column;
+       
+        margin-left: 2.2vw;
+        margin-right: 2.2vw;
+    
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .greysignup_container_main_header{
+    
+    
+    
+    
+    padding-top: 5.34vw;
+    }
+    
+    .greysignup_container_main_header h2{
+    
+        font-family: 'Poppins';
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: center;
+        
+        
+        
+        text-align: center;
+        
+        color: #FFFFFF;
+    
+        margin: 0%;
+       
+        }
+    
+    .greysignup_container_input{
+        margin-top: 2.22vw;
+        display: flex;
+    
+        margin-bottom: 1.21vw;
+    }
+    
+    .greysignup_container_input input::placeholder{
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: left;
+    
+        color: #BCBCBC;
+    
+        text-indent: 13px;
+    
+    }
+    
+    .greysignup_container_input button{
+        background-color: black;
+        min-height: 3.8vw;
+        min-width: 13.54vw;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    
+    }
+    
+    .greysignup_container_input input{
+        background-color: white;
+        min-height: 3.8vw;
+        min-width: 21.52vw;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    
+    }
+    
+    .greysignup_container_small_header{
+        color: #FFFFFF;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+    
+        margin-bottom: 6.86vw;
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .greysignup_container_small_header_span{
+    
+        
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+        text-decoration: underline;
+    
+        
+    
+    
+    
+    }
+ 
+   
+
+}
+/*Big Screen*/
+@media screen  and (min-width:1100px){
+.greysignup_container{
+    display: flex;
+   background-image: url('../assets/Mask\ Group\ \(4\).png');
+   
+    background-size: 69.41vw 25.66vw;
+
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-position: right bottom;
+    background-position-x:28.5vw ;
+    background-position-y:32.5vw ;
+    background-color: #364250;
+    flex-direction: column;
+   
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.greysignup_container_main_header{
+
+
+
+
+padding-top: 5.34vw;
+}
+
+.greysignup_container_main_header h2{
+
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+    
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    margin: 0%;
+   
+    }
+
+.greysignup_container_input{
+    margin-top: 2.22vw;
+    display: flex;
+
+    margin-bottom: 1.21vw;
+}
+
+.greysignup_container_input input::placeholder{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
+    color: #BCBCBC;
+
+    text-indent: 13px;
+
+}
+
+.greysignup_container_input button{
+    background-color: black;
+    min-height: 3.8vw;
+    min-width: 13.54vw;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.greysignup_container_input input{
+    background-color: white;
+    min-height: 3.8vw;
+    min-width: 21.52vw;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.greysignup_container_small_header{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    margin-bottom: 6.86vw;
+
+
+
+}
+
+
+
+
+
+.greysignup_container_small_header_span{
+
+    
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+
+    
+
+
+
+}
+}

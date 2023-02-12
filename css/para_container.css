@@ -1,0 +1,240 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+
+    --hfont:28px;
+    --pfont:14px;
+
+    --plineheight:22px;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+    .para_container{
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        flex-direction: column;
+        gap: 2.083vw;
+        text-align: center;
+        margin-top: 5vw;
+
+        z-index: 0;
+       
+        
+       }
+    
+       .para_main_header{
+       
+        color: #0D1B1E;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: var(--hfont);
+   
+        text-align: left;
+       }
+    
+       .para_main_desc{
+      
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--pfont);
+        line-height: 22px;
+        text-align: justify;
+        text-justify: inter-word;
+       }
+       .para_main_more{
+      
+        font-style: normal;
+        font-weight: bolder ;
+        font-size: 4.25vw;
+        line-height: 0.8vw;
+        text-decoration: underline;
+        color: #0D1B1E;
+        padding: 0%;
+
+        margin-top: 3vh;
+       }
+   
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+   
+    .para_container{
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        flex-direction: column;
+        gap: 2.083vw;
+        text-align: center;
+        margin-top: 5vw;
+
+        z-index: 0;
+       
+        
+       }
+    
+       .para_main_header{
+       
+        color: #0D1B1E;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        max-width: 61.458vw;
+        min-width: 61.458vw;
+        text-align: left;
+       }
+    
+       .para_main_desc{
+      
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.25vw;
+        line-height: 26px;
+        text-align: justify;
+        text-justify: inter-word;
+       }
+       .para_main_more{
+      
+        font-style: normal;
+        font-weight: bolder ;
+        font-size: 2.5vw;
+        line-height: 0.8vw;
+        text-decoration: underline;
+        color: #0D1B1E;
+        padding: 0%;
+       
+       }
+}
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+   
+   
+    .para_container{
+        display: flex;
+        margin-left: 11.52vw;
+        margin-right: 11.52vw;
+        flex-direction: column;
+        gap: 2.083vw;
+        text-align: center;
+        margin-top: 10vw;
+        justify-content: center;
+        align-items: center;
+        
+       }
+    
+       .para_main_header{
+       
+        color: #0D1B1E;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        max-width: 61.458vw;
+        min-width: 61.458vw;
+        text-align: center;
+       }
+    
+       .para_main_desc{
+      
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25vw;
+        line-height: 32px;
+        text-align: center;
+       }
+       .para_main_more{
+      
+        font-style: normal;
+        font-weight: bolder ;
+        font-size: 1.25vw;
+        line-height: 1.8vw;
+        text-decoration: underline;
+        color: #0D1B1E;
+        padding: 0%;
+       
+       }
+}
+/*Big Screen*/
+@media screen and (min-width:1100px) {
+   .para_container{
+    display: flex;
+    margin-left: 11.52vw;
+    margin-right: 11.52vw;
+    flex-direction: column;
+    
+    text-align: center;
+    margin-top: 10vw;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+   .para_main_header{
+   
+    color: #0D1B1E;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    max-width: 61.458vw;
+    min-width: 61.458vw;
+    text-align: center;
+
+    margin: 0%;
+  
+   }
+
+   .para_main_desc{
+  
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0D1B1E;
+
+    margin: 0%;
+
+    margin-top: 1.2vw;
+
+   }
+   .para_main_more{
+
+    font: 'Inter';
+  
+    font-style: normal;
+    font-weight:600 ;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #000000;
+    padding: 0%;
+
+    margin-top: 1.0vw;
+   
+   }
+   
+
+}
+/*Big Screen*/

@@ -1,0 +1,512 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+    .whysparrow_container{
+        display: flex;
+        padding: 2%;
+        padding-top: 7.0vw;
+    
+        background-color: #33393F;
+    
+        padding-bottom: 44.625vw;
+    }
+    
+    
+    .whysparrow_container_main_header h2{
+        font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color: white;
+    
+    margin: 0%;
+    
+
+    
+    }
+    
+    
+    .whysparrow_container_main_header p{
+        margin: 0%;
+    
+        margin-top: 2.5vw;
+       
+    
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    color: white;
+    
+    
+    }
+    
+    .whysparrow_container_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        
+    }
+    
+    
+    
+    
+    .whysparrow_container_grid_item{
+       
+    
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 7.2vw;
+
+       
+    }
+    .whysparrow_container_grid_item_header{
+        display: flex;
+        flex-direction: row;
+        justify-self: flex-start;
+        align-self: flex-start;
+        gap: 1.6vw;
+
+        
+    }
+    
+    .whysparrow_container_grid_item_header_icons{
+
+       position: relative;
+       top: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 10.3vw;
+        height: 10.3vw;
+
+        
+    }
+    
+    .whysparrow_container_grid_item_header_icons img{
+        width: 100%;
+        
+    }
+    
+    .whysparrow_container_grid_item_header_text{
+       
+        display: flex;
+       
+
+        font-family: 'Inter';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+   
+    padding: 0%;
+  
+    }
+    
+    .whysparrow_container_grid_item p{
+        font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    
+    min-width: 33.4vw;
+    
+  
+    
+    }   
+   
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+    .whysparrow_container{
+        display: flex;
+        padding: 2%;
+        padding-top: 7.0vw;
+    
+        background-color: #33393F;
+    
+        padding-bottom: 26.625vw;
+    }
+    
+    
+    .whysparrow_container_main_header h2{
+        font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    color: white;
+    
+    margin: 0%;
+    
+    
+    }
+    
+    
+    .whysparrow_container_main_header p{
+        margin: 0%;
+    
+        margin-top: 2.5vw;
+       
+    
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+    color: white;
+    
+    
+    }
+    
+    .whysparrow_container_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        
+    }
+    
+    
+    
+    
+    .whysparrow_container_grid_item{
+       
+    
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 7.2vw;
+
+        padding: 2%;
+    }
+    .whysparrow_container_grid_item_header{
+        display: flex;
+        flex-direction: row;
+        justify-self: flex-start;
+        align-self: flex-start;
+        gap: 1.6vw;
+    }
+    
+    .whysparrow_container_grid_item_header_icons{
+        width: 6.3vw;
+        height: 6.3vw;
+    }
+    
+    .whysparrow_container_grid_item_header_icons img{
+        width: 100%;
+        
+    }
+    
+    .whysparrow_container_grid_item_header_text{
+        font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+    }
+    
+    .whysparrow_container_grid_item p{
+        font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+    min-width: 33.4vw;
+    
+  
+    
+    }  
+
+}
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+ 
+.whysparrow_container{
+    display: flex;
+
+    padding-top: 7.0vw;
+
+    background-color: #33393F;
+
+    padding-bottom: 20.625vw;
+}
+
+
+.whysparrow_container_main_header h2{
+    font-family: 'Inter';
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+
+color: white;
+
+margin: 0%;
+
+
+
+}
+
+
+.whysparrow_container_main_header p{
+    margin: 0%;
+
+    margin-top: 1.0vw;
+    margin-left: 8.51vw;
+    margin-right: 8.51vw;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+color: white;
+
+
+}
+
+.whysparrow_container_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-left: 5.76vw;
+    margin-right: 5.76vw;
+}
+
+
+
+
+.whysparrow_container_grid_item{
+    min-width: 36.8vw;
+    max-width: 36.8vw;
+
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 7.2vw;
+}
+.whysparrow_container_grid_item_header{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-self: flex-start;
+    gap: 1.6vw;
+}
+
+.whysparrow_container_grid_item_header_icons{
+    width: 3.3vw;
+    height: 3.3vw;
+}
+
+.whysparrow_container_grid_item_header_icons img{
+    width: 100%;
+    
+}
+
+.whysparrow_container_grid_item_header_text{
+    font-family: 'Inter';
+font-size: 24px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+
+.whysparrow_container_grid_item p{
+    font-family: 'Inter';
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+
+min-width: 33.4vw;
+
+margin-right: 8vw;
+
+}  
+   
+ 
+   
+
+}
+/*Big Screen*/
+@media screen and (min-width:1100px) {
+    
+
+.whysparrow_container{
+    display: flex;
+
+    padding-top: 7.0vw;
+
+    background-color: #33393F;
+
+    padding-bottom: 20.625vw;
+}
+
+
+.whysparrow_container_main_header h2{
+    font-family: 'Inter';
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+
+color: white;
+
+margin: 0%;
+
+margin-left: 29.2vw;
+
+margin-right: 29.2vw;
+
+}
+
+
+.whysparrow_container_main_header p{
+    margin: 0%;
+
+    margin-top: 1.0vw;
+    margin-left: 14.51vw;
+    margin-right: 14.51vw;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+color: white;
+
+
+}
+
+.whysparrow_container_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-left: 5.76vw;
+    margin-right: 5.76vw;
+}
+
+
+
+
+.whysparrow_container_grid_item{
+    min-width: 36.8vw;
+    max-width: 36.8vw;
+
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 7.2vw;
+}
+.whysparrow_container_grid_item_header{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-self: flex-start;
+    gap: 1.6vw;
+}
+
+.whysparrow_container_grid_item_header_icons{
+    width: 3.3vw;
+    height: 3.3vw;
+}
+
+.whysparrow_container_grid_item_header_icons img{
+    width: 100%;
+    
+}
+
+.whysparrow_container_grid_item_header_text{
+    font-family: 'Inter';
+font-size: 24px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+
+.whysparrow_container_grid_item p{
+    font-family: 'Inter';
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+
+min-width: 33.4vw;
+
+margin-right: 8vw;
+
+}
+}

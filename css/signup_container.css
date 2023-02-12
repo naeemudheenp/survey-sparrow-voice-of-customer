@@ -1,0 +1,491 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    --marginTop:1.319vh;
+
+    --hfont:28px;
+    --pfont:14px;
+
+    --plineheight:22px;
+}
+
+/*Small Screen*/
+@media screen  and (max-width:567px){
+ 
+.signup_container{
+    display: flex;
+    background-color: #19B885;
+    flex-direction: column;
+    margin-top: 10.21vw;
+
+    padding: 3%;
+
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup_container_main_header{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 22px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+padding-top: 4.1vw;
+
+margin-bottom: 1.5vh;
+}
+
+.signup_container_input{
+    margin-top: 2.22vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup_container_input input::placeholder{
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
+    color: #BCBCBC;
+
+    text-indent: 13px;
+
+}
+
+.signup_container_input button{
+    background-color: black;
+    min-height: 6.8vw;
+    min-width: 13.54vw;
+    color: #FFFFFF;
+    border: none;
+
+    width: 80%;
+
+    margin-top: 0.9vh;
+
+}
+
+.signup_container_input input{
+    background-color: white;
+    min-height: 6.8vw;
+    min-width: 21.52vw;
+    color: #FFFFFF;
+    border: none;
+
+    width: 80%;
+
+
+}
+
+.signup_container_small_header{
+    margin-top: 0.833vw;
+    font-family: 'Inter';
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #F6F6F6;
+    padding-bottom: 4.3vw;
+
+   
+
+
+}
+
+.signup_container_small_header_span{
+
+    
+    font-family: 'Inter';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+
+    
+
+
+
+
+}   
+   
+    
+}
+/*Small Screen Ends Here*/
+
+
+
+
+/*Medium Screen*/
+@media screen  and (min-width:576px) and (max-width:991px){
+    
+
+
+.signup_container{
+    display: flex;
+    background-color: #19B885;
+    flex-direction: column;
+    margin-top: 10.21vw;
+
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup_container_main_header{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 56px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+padding-top: 4.1vw;
+}
+
+.signup_container_input{
+    margin-top: 2.22vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_container_input input::placeholder{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
+    color: #BCBCBC;
+
+    text-indent: 13px;
+
+}
+
+.signup_container_input button{
+    background-color: black;
+    min-height: 4.8vw;
+    min-width: 13.54vw;
+    color: #FFFFFF;
+    border: none;
+
+    width: 80%;
+
+
+}
+
+.signup_container_input input{
+    background-color: white;
+    min-height: 4.8vw;
+    min-width: 21.52vw;
+    color: #FFFFFF;
+    border: none;
+
+    width: 80%;
+
+
+}
+
+.signup_container_small_header{
+    margin-top: 0.833vw;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #F6F6F6;
+    padding-bottom: 4.3vw;
+
+   
+
+
+}
+
+.signup_container_small_header_span{
+
+    
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+
+    
+
+
+
+
+}
+
+}
+
+/*Medium Screen Ends Here*/
+
+
+
+/*Large Screen*/
+@media screen  and (min-width:992px) and (max-width:1099px){
+ 
+.signup_container{
+    display: flex;
+    background-color: #19B885;
+    flex-direction: column;
+    margin-top: 10.21vw;
+    margin-left: 5.69vw;
+    margin-right: 5.69vw;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup_container_main_header{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 56px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+padding-top: 4.1vw;
+}
+
+.signup_container_input{
+    margin-top: 2.22vw;
+    display: flex;
+}
+
+.signup_container_input input::placeholder{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
+    color: #BCBCBC;
+
+    text-indent: 13px;
+
+}
+
+.signup_container_input button{
+    background-color: black;
+    min-height: 3.8vw;
+    min-width: 13.54vw;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.signup_container_input input{
+    background-color: white;
+    min-height: 3.8vw;
+    min-width: 21.52vw;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.signup_container_small_header{
+    margin-top: 0.833vw;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #F6F6F6;
+    padding-bottom: 4.3vw;
+
+   
+
+
+}
+
+.signup_container_small_header_span{
+
+    
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+
+    
+
+
+
+}  
+   
+ 
+   
+
+}
+/*Big Screen*/
+@media screen and (min-width:1100px) {
+    
+
+
+.signup_container{
+    display: flex;
+    background-color: #19B885;
+    flex-direction: column;
+    margin-top: 10.21vw;
+    margin-left: 5.69vw;
+    margin-right: 5.69vw;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup_container_main_header{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 56px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+padding-top: 4.1vw;
+}
+
+.signup_container_input{
+    margin-top: 2.22vw;
+    display: flex;
+}
+
+.signup_container_input input::placeholder{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
+    color: #BCBCBC;
+
+    text-indent: 13px;
+
+}
+
+.signup_container_input button{
+    background-color: black;
+    min-height: 3.8vw;
+    min-width: 13.54vw;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.signup_container_input input{
+    background-color: white;
+    min-height: 3.8vw;
+    min-width: 21.52vw;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.signup_container_small_header{
+    margin-top: 0.833vw;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #F6F6F6;
+    padding-bottom: 4.3vw;
+
+   
+
+
+}
+
+.signup_container_small_header_span{
+
+    
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+
+    
+
+
+
+}
+}
