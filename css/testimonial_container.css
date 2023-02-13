@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@700&display=swap');
+
 html,body{
     margin: 0%;
     padding: 0%;
@@ -31,7 +34,7 @@ html,body{
         font-style: normal;
         font-weight: 400;
         font-size: var(--pfont);
-        line-height: 32px;
+        line-height: 24px;
        
     
         text-align: justify;
@@ -109,7 +112,7 @@ html,body{
         font-family: 'Inter';
     font-size: var(--pfont);
     font-weight: 400;
-    line-height: 30px;
+    line-height: 24px;
     letter-spacing: 0em;
     text-align: justify;
     text-justify: inter-word;
@@ -483,7 +486,7 @@ text-align: center;
     .testimonial_text1{
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 18px;
         line-height: 32px;
        
@@ -530,7 +533,7 @@ text-align: center;
       
         font-family: 'Inter';
         font-size: 22px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 32px;
         letter-spacing: 0em;
         text-align: center;
@@ -559,7 +562,7 @@ text-align: center;
     .testimonial_text2 p{
         font-family: 'Inter';
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;

@@ -47,7 +47,7 @@ html,body{
     
     .competetors_review h2{
         font-family: 'Poppins';
-        font-size: var(--hfont);
+        font-size: 20px;
         font-weight: 700;
         line-height: 36px;
         letter-spacing: 0em;
@@ -148,7 +148,7 @@ html,body{
     
     .competetors_images_grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     
         
     
@@ -223,7 +223,7 @@ html,body{
     
     .competetors_images h2{
         font-family: 'Poppins';
-    font-size: var(--hfont);
+    font-size: 20px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0em;
@@ -251,7 +251,7 @@ html,body{
     
     .customer_review h2{
         font-family: 'Poppins';
-        font-size: var(--hfont);
+        font-size: 20px;
         font-weight: 700;
         line-height: 36px;
         letter-spacing: 0em;
@@ -596,7 +596,7 @@ html,body{
     
     .customer_review h2{
         font-family: 'Poppins';
-        font-size: 36px;
+        font-size: 32px;
         font-weight: 700;
         line-height: 56px;
         letter-spacing: 0em;
@@ -1136,6 +1136,8 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: 2.9%;
 }
 
 .competetors_review_images_item1 img{
@@ -1304,16 +1306,18 @@ margin-bottom: 6.4vw    ;
 .customer_review p{ 
     font-family: 'Inter';
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 38px;
-    letter-spacing: 0em;
+    letter-spacing: 0.1px;
     text-align: center;
-    color: #00000099;
+    color:rgba(0, 0, 0, 0.6);
     margin: 0%;
-    margin-top: 4.4vw;
+    margin-top: 3.4vw;
 
     margin-left: 17.08vw;
     margin-right: 17.08vw;
+
+
 
 
   
@@ -1323,6 +1327,13 @@ margin-bottom: 6.4vw    ;
     display: flex;
 
     gap: 5.5vw;
+   
+   padding: 0%;
+   justify-content: flex-start;
+   align-items: center;
+
+   margin-top: 3.7vh;
+   
 }
 
 .customer_review_image_item{
@@ -1330,7 +1341,7 @@ margin-bottom: 6.4vw    ;
     min-width: 5.2083vw;
 
     display: flex;
-    justify-content: center;
+    
     align-items: center;
 
     min-height: 9.26vw;
@@ -1342,6 +1353,9 @@ margin-bottom: 6.4vw    ;
 }
 
 .customer_review_image_item_hero{
+   position: relative;
+   top: 7vh;
+    
     
     flex-direction: column;
   
@@ -1351,17 +1365,20 @@ margin-bottom: 6.4vw    ;
 
     flex-wrap: wrap;
 
+    margin-right: -2.4vh;
+
 
 }
 
 .customer_review_image_item_hero_img {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 6.94vw;
     max-width: 6.94vw;
 
-    padding-top: 70%;
+   
 
     border-radius: 50% !important;
 
@@ -1383,6 +1400,9 @@ text-align: center;
 
 margin: 0%;
 
+color:rgba(0, 0, 0, 1);
+;
+
 }
 
 
@@ -1394,6 +1414,9 @@ margin: 0%;
     letter-spacing: 0em;
     text-align: center;
     margin: 0%;
+
+    color: rgba(0, 0, 0, 0.6);
+    ;
 
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@700&display=swap');
+
 html,body{
     margin: 0%;
     padding: 0%;
@@ -42,11 +44,11 @@ html,body{
         font-family: 'Poppins';
         font-style:normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 56px;
+        font-size: 20px;
+        line-height: 40px;
     
     
-        text-align: center;
+        text-align: left;
     
         color: #0D1B1E;
         margin: 0%;
@@ -63,7 +65,7 @@ html,body{
         
         margin-bottom: 7.85vw;
     
-        text-align: center;
+        text-align: left;
     
         color: #0D1B1E;
   
@@ -113,6 +115,7 @@ html,body{
     
         justify-content: center;
         align-items: center;
+   
         
         
     }
@@ -142,8 +145,8 @@ html,body{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 20px;
+        line-height: 40px;
         text-align: left;
         align-self: flex-start;
     
@@ -534,7 +537,7 @@ html,body{
     font-size: 18px;
     line-height: 32px;
     
-    margin-bottom: 7.85vw;
+    margin-bottom: 7.45vw;
 
     text-align: center;
 
@@ -550,6 +553,7 @@ html,body{
 
     margin-left: 5.83vw;
     margin-right: 5.83vw;
+    
 
     
 }
@@ -559,6 +563,8 @@ html,body{
     grid-template-columns: 1fr 1fr;
 
     gap: 6.31vw;
+
+   
 }
 
 .feature_section2_container_item_section2{
@@ -590,6 +596,7 @@ html,body{
     align-items: center;
     
     
+    
 }
 
 .feature_section2_container_item_section1 p{
@@ -600,11 +607,13 @@ html,body{
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 
     margin: 0%;
 
     margin-top: 3.0vh;
+
+
     
     
 }
@@ -630,7 +639,7 @@ html,body{
 }
 
 .custom_margin{
-    margin-top: 13.81vw;
+    margin-top: 10.31vw;
 }
 
 }

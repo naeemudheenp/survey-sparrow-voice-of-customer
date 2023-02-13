@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@700&display=swap');
+
+
 html,body{
     margin: 0%;
     padding: 0%;
@@ -64,7 +68,7 @@ html,body{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: var(--hfont);
+        font-size: 20px;
         line-height: 125%;
         text-align: center;
         color: #FFFFFF;
@@ -304,7 +308,7 @@ html,body{
        .features_item_header{
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 20px;
         line-height: 105%;
         text-align: center;
@@ -321,15 +325,13 @@ html,body{
 
        .features_item_desc{
         font-family: 'Inter';
-    
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 200;
         line-height: 22.5px;
         letter-spacing: 0px;
         text-align: center;
-
-        text-align: center;
-        color: #FFFFFF;
+        
+        color: rgba(255, 255, 255, 1);
 
         width: 100%;
        

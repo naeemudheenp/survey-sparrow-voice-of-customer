@@ -786,23 +786,25 @@ text-align: left;
    .navbar_button{
    
  
-   margin-left: 1.11vw;
+    margin-left: 1.11vw;
     min-height: 2.7vh;
     min-width: 6.0416667vw;
-    font-size: 0.675rem;
-    line-height: 1.88rem;
+    font-size: 14px;
+    line-height: 14px;
     text-align: center;
     background-color: #30BF91;
     color: white;
     border: none;
-    border-radius: 0.6vw;
+    border-radius: 5px;
     font-family: 'Inter';
     
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
+
     letter-spacing: 0px;
     text-align: CENTER;
+
+    padding: 0.90vw;
 
    }
    .opt1{

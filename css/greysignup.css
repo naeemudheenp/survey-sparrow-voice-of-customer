@@ -103,6 +103,9 @@ html,body{
         border: none;
     
         width: 80%;
+
+        margin-top: 0.5vh;
+        border-radius:3px ;
     
     
     
@@ -116,6 +119,7 @@ html,body{
         border: none;
     
         width: 80%;
+        border-radius:3px ;
     
     
     }
@@ -455,13 +459,13 @@ padding-top: 5.34vw;
     display: flex;
    background-image: url('../assets/Mask\ Group\ \(4\).png');
    
-    background-size: 69.41vw 25.66vw;
+    background-size: 49.41vw 25.66vw;
 
    background-repeat: no-repeat;
-   background-attachment:fixed;
+   background-attachment:scroll;
    background-position: right bottom;
-    background-position-x:28.5vw ;
-    background-position-y:32.5vw ;
+    background-position-x:48.5vw ;
+    background-position-y:-0.5vw ;
     background-color: #364250;
     flex-direction: column;
    
@@ -471,6 +475,11 @@ padding-top: 5.34vw;
     justify-content: center;
     align-items: center;
 
+    margin-top: 6.3vh;
+
+    max-height: 22.91vw;
+    
+    
 }
 
 .greysignup_container_main_header{
@@ -501,7 +510,7 @@ padding-top: 5.34vw;
     }
 
 .greysignup_container_input{
-    margin-top: 2.22vw;
+    margin-top: 1.72vw;
     display: flex;
 
     margin-bottom: 1.21vw;
@@ -509,20 +518,20 @@ padding-top: 5.34vw;
 
 .greysignup_container_input input::placeholder{
     font-family: 'Inter';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 19px;
     letter-spacing: 0.15000000596046448px;
     text-align: left;
 
-    color: #BCBCBC;
+    color: rgba(13, 27, 30, 1);
 
-    text-indent: 13px;
+    text-indent: 20px;
 
 }
 
 .greysignup_container_input button{
-    background-color: black;
+    background-color: #19B885;
     min-height: 3.8vw;
     min-width: 13.54vw;
     color: #FFFFFF;
@@ -530,6 +539,14 @@ padding-top: 5.34vw;
     border-radius: 4px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+
 
 }
 
@@ -542,6 +559,11 @@ padding-top: 5.34vw;
     border-radius: 4px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    color: black;
+    text-indent: 13px;
+    outline-color:#D8D8D8;
+
+    margin-left: 1vw;
 
 }
 

@@ -106,11 +106,11 @@
     }
     
     .footer_connect_social_item{
-        min-width: 2.36vw;
-        min-height: 2.36vw;
+        min-width: 7.36vw;
+        min-height: 7.36vw;
     
-        max-width: 2.36vw;
-        max-height: 2.36vw;
+        max-width: 7.36vw;
+        max-height: 7.36vw;
     
         margin: 0%;
     
@@ -542,11 +542,13 @@
     }
     
     .footer_connect_list>div>img{
-        min-width: 1.041vw;
-        min-height: 1.041vw;
+        min-width:0.85vw;
+        min-height: 0.85vw;
     
-        max-width: 1.041vw;
-        max-height: 1.041vw;
+        max-width: 0.85vw;
+        max-height: 0.85vw;
+
+        margin-right: 120%;
     
     
     }
