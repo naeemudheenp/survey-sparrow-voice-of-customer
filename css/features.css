@@ -59,6 +59,7 @@ html,body{
 
         margin-bottom: 3vh;
 
+
        
         
        }
@@ -85,6 +86,10 @@ html,body{
         text-align: left;
         color: #FFFFFF;
         order: 3;
+        padding-bottom: 0.5vh;
+
+
+        border-bottom: #bbbbbb solid ;
 
        }
        .features_item_icon{
@@ -201,12 +206,12 @@ html,body{
         background-color: #33393F;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        align-items: center;
+   
         margin-left: 5.76vw;
         margin-right: 5.76vw;
         max-width: 88.47vw;
         margin-top: 7.22vw;
-        min-height: 21.11vw;
+        min-height: 32.11vw;
         padding-left: 6.4vw;
         
 
@@ -234,7 +239,7 @@ html,body{
         line-height: 125%;
         text-align: center;
         color: #FFFFFF;
-        height: 100%;
+       
         
        }
 

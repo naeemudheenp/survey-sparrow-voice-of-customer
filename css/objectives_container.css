@@ -119,15 +119,15 @@
 
         /* item 2 begins here */
         .objectives_main_clip_clipflex_items_item2_1{
+         
             
         }
         .objectives_main_clip_clipflex_items_item2_1 img{
-
-              display: none;
-            width: 0%;
+            display: none;
             content: url('../assets/Group\ 562.png');
         }
         .objectives_main_clip_clipflex_items_item2_2{
+          
             margin-top: -8vh;
           
             clip-path: polygon(49% 29%, 100% 0, 100% 68%, 49% 98%, 0 68%, 0 0);
@@ -336,18 +336,18 @@
                 margin-top: 5.975vw;
                 justify-content: center;
                 align-items: center;
-                padding-bottom: 50.2vw;
+              
                 gap: 0%;
                 
             }
 
             .objectives_icons{
                 display: grid;
-                grid-template-columns: 1fr ;
+                grid-template-columns: 1fr 1fr ;
                 max-height: 24.51vw;
                 min-height: 26.66vw;
-                padding-bottom: 12.2vw;
-                gap:  3.7vw 1.975vw;
+              
+                gap:  2.7vw 1.975vw;
                 
             
             
@@ -357,10 +357,10 @@
 
             .objectives_icons img{
             
-                min-height: 15.3vw;
-                max-height: 15.3vw;
-                min-width: 15.3vw;
-                max-width: 15.3vw;
+                min-height: 18.3vw;
+                max-height: 18.3vw;
+                min-width: 18.3vw;
+                max-width: 18.3vw;
 
             
             }
@@ -385,11 +385,10 @@
                 display: flex;
                 flex-direction: column;
                 
-                width: max-content;
-
+              
                 justify-content: center;
                 align-items: center;
-                gap: 0.83vw;
+                gap: 3.83vw ;
 
                 font-family: 'Inter';
                 font-size: 16px;
@@ -397,6 +396,8 @@
                 line-height: 32px;
                 letter-spacing: 0em;
                 text-align: center;
+
+                margin-top: 1vh;
 
             }
             /* icons section end here */
@@ -1434,9 +1435,9 @@
         .objectives_main_clip_clipflex_items_item1_2{
             min-width: 19.581vw;
             min-height: 4.16vw;
-            clip-path: polygon(0% 0%, 92% 0, 100% 50%, 92% 100%, 0% 100%);
- 
-            background-color:  #19B885;
+            /* clip-path: polygon(95% 0%, 96% 0, 100% 50%, 96% 100%, 0% 100%); */
+            clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+            background-color: #19B885;
             border-bottom-left-radius:5px; 
             border-top-left-radius:5px; 
             font-family: 'Inter';

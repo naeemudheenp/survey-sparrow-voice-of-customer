@@ -14,8 +14,28 @@ html,body{
         padding: 15px;
         
     }
+
+
+
    
     
+}
+
+.float{
+	position:fixed;
+	width:55px;
+	height:55px;
+	bottom:20px;
+	right:10px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    z-index: 10000;
+}
+
+.my-float{
+	margin-top:20px;
 }
 /*Small Screen Ends Here*/
 

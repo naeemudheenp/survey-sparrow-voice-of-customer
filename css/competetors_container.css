@@ -21,7 +21,7 @@ html,body{
         display: flex;
         flex-direction: column;
         background-color: white;
-        padding-top: 22.90vw;
+        padding-top: 30.90vw;
         position: relative;
         z-index: -100;
         margin-top: -8.5vh;
@@ -148,14 +148,14 @@ html,body{
     
     .competetors_images_grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
     
         
     
         
     
         
-        row-gap: 8.8vw;
+        row-gap: 30.8vw;
         column-gap: 4.2vw;
     
         padding: 0%;
@@ -163,9 +163,16 @@ html,body{
     
     }
     
-    
+    .competetors_images_item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 5%;
+    }
     
     .competetors_images_item img{
+
+   
     
         width: 100%;
     
@@ -283,8 +290,8 @@ html,body{
     }
     
     .customer_review_image_item{
-        max-width: 8.2083vw;
-        min-width: 8.2083vw;
+        max-width: 9.2083vw;
+        min-width: 9.2083vw;
     
         display: flex;
         justify-content: center;
@@ -315,8 +322,8 @@ html,body{
         display: flex;
         justify-content: center;
         align-items: center;
-        min-width: 9.94vw;
-        max-width: 9.94vw;
+        min-width: 13.94vw;
+        max-width: 13.94vw;
     
         padding-top: 70%;
     
@@ -332,7 +339,7 @@ html,body{
     
     .customer_review_image_item_hero h4{
         font-family: 'Inter';
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 56px;
     letter-spacing: 0em;
@@ -347,7 +354,7 @@ html,body{
         font-family: 'Inter';
         font-size: 9px;
         font-weight: 300;
-        line-height: 16px;
+        line-height: 12px;
         letter-spacing: 0em;
         text-align: center;
         margin: 0%;

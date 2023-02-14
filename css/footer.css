@@ -9,8 +9,8 @@
         margin-left: 2.20vw;
       
     
-        justify-content:flex-start;
-        align-items:flex-start;
+        justify-content:center;
+        align-items:center;
         width: 100%;
     
         margin-top: 12.29vw;
@@ -29,8 +29,8 @@
     
     .footer_basic{
         display: flex;
-        justify-content:flex-start;
-        align-items:flex-start;
+        justify-content:center;
+        align-items:center;
      
     
         min-height: 17.43vw;
@@ -44,7 +44,7 @@
         font-weight: 300;
         line-height: 28px;
         letter-spacing: 0px;
-        text-align: left;
+        text-align: center;
         color:  #0D1B1E80;
     
     }
@@ -55,7 +55,7 @@
         font-weight: 500;
         line-height: 22px;
         letter-spacing: 0px;
-        text-align: left;
+        text-align: center;
     
         color: black;
     
@@ -71,6 +71,8 @@
         min-height: 17.43vw;
     
         min-width: 11.8vw;
+
+        text-align: center;
     
         
     }
@@ -81,7 +83,9 @@
       
         align-items: center;
     
-        gap: 0.49vw;
+        gap: 2.49vw;
+        text-align: center;
+        justify-content: center;
     
     }
     
@@ -97,8 +101,13 @@
     .footer_connect_social{
         display: flex;
         flex-direction: row;
+
+        justify-content: center;
+        align-items: center;
     
-        gap: 1.66vw;
+        gap: 8.66vw;
+
+        text-align: center;
     
     
       
@@ -124,8 +133,8 @@
     
     .footer_award{
         display: flex;
-        justify-content: flex-start;
-        align-items:flex-start;
+        justify-content: center;
+        align-items:center;
     
         
        

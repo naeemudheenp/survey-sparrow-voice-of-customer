@@ -27,6 +27,8 @@ html,body{
     justify-content: center;
     align-items: center;
 
+
+
 }
 
 .signup_container_main_header{
@@ -75,7 +77,7 @@ margin-bottom: 1.5vh;
 
 .signup_container_input button{
     background-color: black;
-    min-height: 6.8vw;
+    min-height: 8.8vw;
     min-width: 13.54vw;
     color: #FFFFFF;
     border: none;
@@ -89,7 +91,7 @@ margin-bottom: 1.5vh;
 
 .signup_container_input input{
     background-color: white;
-    min-height: 6.8vw;
+    min-height: 8.8vw;
     min-width: 21.52vw;
     color: #FFFFFF;
     border: none;
@@ -101,9 +103,10 @@ margin-bottom: 1.5vh;
 }
 
 .signup_container_small_header{
-    margin-top: 0.833vw;
+
+    margin-top: 2.233vw;
     font-family: 'Inter';
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 400;
     line-height: 17px;
     letter-spacing: 0px;
@@ -120,7 +123,7 @@ margin-bottom: 1.5vh;
 
     
     font-family: 'Inter';
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 17px;
     letter-spacing: 0px;
@@ -443,7 +446,7 @@ padding-top: 4.1vw;
     min-width: 13.54vw;
     color: rgba(255, 255, 255, 1);
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 
@@ -463,7 +466,7 @@ padding-top: 4.1vw;
     min-width: 21.52vw;
     color: #FFFFFF;
     border: 1px solid #BDBDBD;
-    border-radius: 4px;
+    border-radius: 5px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 
