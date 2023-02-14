@@ -282,7 +282,7 @@ html,body{
         
     }    
     .navbar_logo img{
-        content:  url("/assets/SurveySparrow-Logo-Black\ 1\ \(1\).png");
+        content:  url("../assets/tt.svg");
         min-height: 100%;
         width: 30%;
       
