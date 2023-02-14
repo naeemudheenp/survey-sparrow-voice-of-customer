@@ -131,6 +131,9 @@ html,body{
         border-radius:3px ;
         min-height: 8.8vw;
 
+        color: black;
+        text-indent: 13px;
+        outline-color:#D8D8D8;
     
     
     }
@@ -282,6 +285,10 @@ padding-top: 5.34vw;
 
     width: 80%;
 
+    color: black;
+    text-indent: 13px;
+    outline-color:#D8D8D8;
+
 
 }
 
@@ -421,6 +428,10 @@ padding-top: 5.34vw;
         border-radius: 4px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
+
+        color: black;
+        text-indent: 13px;
+        outline-color:#D8D8D8;
     
     }
     
